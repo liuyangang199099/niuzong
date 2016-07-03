@@ -1,0 +1,785 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <title></title>
+
+    <base href="."/>
+
+    <meta name="viewport"
+          content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+
+    <meta name="format-detection" content="telephone=no"/>
+    <style>
+
+        #iframe_screen {
+            background: #fff;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            z-index: 300000;
+            overflow: hidden;
+        }
+    </style>
+
+    <link href="./tpl/Wap/default/common/css/allcss/cate2_0.css" rel="stylesheet" type="text/css"/>
+
+    <link href="./tpl/Wap/default/common/css/102/iscroll.css" rel="stylesheet" type="text/css"/>
+
+    <style>
+
+
+    </style>
+
+    <script src="./tpl/Wap/default/common/css/102/iscroll.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        var myScroll;
+
+
+        function loaded() {
+
+            myScroll = new iScroll('wrapper', {
+
+                snap: true,
+
+                momentum: false,
+
+                hScrollbar: false,
+
+                onScrollEnd: function () {
+
+                    document.querySelector('#indicator > li.active').className = '';
+
+                    document.querySelector('#indicator > li:nth-child(' + (this.currPageX + 1) + ')').className = 'active';
+
+                }
+
+            });
+
+
+        }
+
+
+        document.addEventListener('DOMContentLoaded', loaded, false);
+
+    </script>
+
+
+</head>
+
+
+<body id="cate2">
+
+<!--背景音乐-->
+
+
+<!--<div class="banner">
+
+<div id="wrapper">
+
+<div id="scroller">
+
+ <ul id="thelist">
+
+ <li><p>学历教育</p><a href=""><img src="http://zhan.sem123.com/uploads/u/ulxuls1422869250/d/d/8/5/thumb_557139f197657.jpg" /></a></li><li><p>电脑培训</p><a href=""><img src="http://zhan.sem123.com/uploads/u/ulxuls1422869250/6/3/5/7/thumb_5541ea909d868.png" /></a></li><li><p>迪派游戏开发班</p><a href="http://www.dldipai.cn/shoujibohao/diannaopeixun/youxi.html?wecha_id={wechat_id}"><img src="http://zhan.sem123.com/uploads/u/ulxuls1422869250/c/6/d/c/thumb_559f35fcaa238.jpg" /></a></li>
+ </ul>
+
+</div>
+
+</div>
+
+<div id="nav">
+
+<div id="prev" onclick="myScroll.scrollToPage('prev', 0,400,3);return false">&larr; prev</div>
+
+<ul id="indicator">
+
+<li   class="active"  >1</li><li     >2</li><li     >3</li>
+
+
+</ul>
+
+<div id="next" onclick="myScroll.scrollToPage('next', 0);return false">next &rarr;</div>
+
+</div>
+
+<div class="clr"></div>
+
+</div>-->
+
+<div id="insert1"></div>
+
+<div id="todayList">
+
+    <ul class="todayList">
+
+        <li class="only2">
+
+            <a href="http://www.dldipai.cn/shoujibohao/diannaopeixun/youxi.html?wecha_id={wechat_id}">
+
+                <h2 class="menutitle">游戏开发</h2>
+
+                <span class="icon">&nbsp;</span>
+
+            </a>
+
+        </li>
+        <li class="only2">
+
+            <a href="http://www.dldipai.cn/shoujibohao/diannaopeixun/pingmianshi.html?wecha_id={wechat_id}">
+
+                <h2 class="menutitle">平面设计师</h2>
+
+                <span class="icon">&nbsp;</span>
+
+            </a>
+
+        </li>
+        <li class="only2">
+
+            <a href="http://www.dldipai.cn/shoujibohao/diannaopeixun/zhuanghuangshi.html?wecha_id={wechat_id}">
+
+                <h2 class="menutitle">装潢设计培训</h2>
+
+                <span class="icon">&nbsp;</span>
+
+            </a>
+
+        </li>
+        <li class="only2">
+
+            <a href="http://www.dldipai.cn/shoujibohao/diannaopeixun/wangye.html?wecha_id={wechat_id}">
+
+                <h2 class="menutitle">网页美工网站开发培训</h2>
+
+                <span class="icon">&nbsp;</span>
+
+            </a>
+
+        </li>
+        <li class="only2">
+
+            <a href="http://www.dldipai.cn/shoujibohao/diannaopeixun/yuanlinshi.html?wecha_id={wechat_id}">
+
+                <h2 class="menutitle">园林景观设计师</h2>
+
+                <span class="icon">&nbsp;</span>
+
+            </a>
+
+        </li>
+        <li class="only2">
+
+            <a href="http://www.dldipai.cn/shoujibohao/diannaopeixun/duiri.html?wecha_id={wechat_id}">
+
+                <h2 class="menutitle">对日排版对日绘图培训</h2>
+
+                <span class="icon">&nbsp;</span>
+
+            </a>
+
+        </li>
+        <li class="only2">
+
+            <a href="http://www.dldipai.cn/shoujibohao/diannaopeixun/ug.html?wecha_id={wechat_id}">
+
+                <h2 class="menutitle">UG、三维造型培训</h2>
+
+                <span class="icon">&nbsp;</span>
+
+            </a>
+
+        </li>
+        <li class="only2">
+
+            <a href="http://www.dldipai.cn/shoujibohao/diannaopeixun/chugui.html?wecha_id={wechat_id}">
+
+                <h2 class="menutitle">橱柜设计师</h2>
+
+                <span class="icon">&nbsp;</span>
+
+            </a>
+
+        </li>
+        <li class="only2">
+
+            <a href="http://www.dldipai.cn/shoujibohao/diannaopeixun/gongjian.html?wecha_id={wechat_id}">
+
+                <h2 class="menutitle">公建设计培训</h2>
+
+                <span class="icon">&nbsp;</span>
+
+            </a>
+
+        </li>
+        <li class="only2">
+
+            <a href="http://www.dldipai.cn/shoujibohao/diannaopeixun/weixiu.html?wecha_id={wechat_id}">
+
+                <h2 class="menutitle">计算机组装维修</h2>
+
+                <span class="icon">&nbsp;</span>
+
+            </a>
+
+        </li>
+        <li class="only2">
+
+            <a href="http://www.dldipai.cn/shoujibohao/diannaopeixun/catia.html?wecha_id={wechat_id}">
+
+                <h2 class="menutitle">CATIA设计</h2>
+
+                <span class="icon">&nbsp;</span>
+
+            </a>
+
+        </li>
+        <li class="only2">
+
+            <a href="http://www.dldipai.cn/shoujibohao/diannaopeixun/tuxing.html?wecha_id={wechat_id}">
+
+                <h2 class="menutitle">图形图像班</h2>
+
+                <span class="icon">&nbsp;</span>
+
+            </a>
+
+        </li>
+        <li class="only2">
+
+            <a href="http://www.dldipai.cn/shoujibohao/diannaopeixun/yingshi.html?wecha_id={wechat_id}">
+
+                <h2 class="menutitle">影视动画班</h2>
+
+                <span class="icon">&nbsp;</span>
+
+            </a>
+
+        </li>
+        <li class="only2">
+
+            <a href="http://www.dldipai.cn/shoujibohao/diannaopeixun/taobaodian.html?wecha_id={wechat_id}">
+
+                <h2 class="menutitle">淘宝班</h2>
+
+                <span class="icon">&nbsp;</span>
+
+            </a>
+
+        </li>
+        <li class="only2">
+
+            <a href="http://www.dldipai.cn/shoujibohao/diannaopeixun/bangong.html?wecha_id={wechat_id}">
+
+                <h2 class="menutitle">办公软件</h2>
+
+                <span class="icon">&nbsp;</span>
+
+            </a>
+
+        </li>
+    </ul>
+
+</div>
+
+<script>
+
+
+    var count = document.getElementById("thelist").getElementsByTagName("img").length;
+
+
+    for (i = 0; i < count; i++) {
+
+        document.getElementById("thelist").getElementsByTagName("img").item(i).style.cssText = " width:" + document.body.clientWidth + "px";
+
+
+    }
+
+
+    document.getElementById("scroller").style.cssText = " width:" + document.body.clientWidth * count + "px";
+
+
+    setInterval(function () {
+
+        myScroll.scrollToPage('next', 0, 400, count);
+
+    }, 3500);
+
+
+    window.onresize = function () {
+
+        for (i = 0; i < count; i++) {
+
+            document.getElementById("thelist").getElementsByTagName("img").item(i).style.cssText = " width:" + document.body.clientWidth + "px";
+
+
+        }
+
+
+        document.getElementById("scroller").style.cssText = " width:" + document.body.clientWidth * count + "px";
+
+    }
+
+
+</script>
+
+<div id="insert2"></div>
+
+<div style="display:none"></div>
+
+
+<div class="copyright">
+
+
+    品众互动营销自助平台
+</div>
+
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js" type="text/javascript"></script>
+<br>
+<br>
+<script>
+    function displayit(n) {
+        for (i = 0; i < 4; i++) {
+            if (i == n) {
+                var id = 'menu_list' + n;
+                if (document.getElementById(id).style.display == 'none') {
+                    document.getElementById(id).style.display = '';
+                    document.getElementById("plug-wrap").style.display = '';
+                } else {
+                    document.getElementById(id).style.display = 'none';
+                    document.getElementById("plug-wrap").style.display = 'none';
+                }
+            } else {
+                if ($('#menu_list' + i)) {
+                    $('#menu_list' + i).css('display', 'none');
+                }
+            }
+        }
+    }
+    function closeall() {
+        var count = document.getElementById("top_menu").getElementsByTagName("ul").length;
+        for (i = 0; i < count; i++) {
+            document.getElementById("top_menu").getElementsByTagName("ul").item(i).style.display = 'none';
+        }
+        document.getElementById("plug-wrap").style.display = 'none';
+    }
+
+    document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+        WeixinJSBridge.call('hideToolbar');
+    });
+</script>
+<style type="text/css">
+    body {
+        margin-bottom: 60px !important;
+    }
+
+    a, button, input {
+        -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+    }
+
+    /*ul, li { list-style:none; margin:0; padding:0; width:25%;}*/
+    /*#top_menu li{width:25%;}*/
+    .top_bar {
+        position: fixed;
+        z-index: 900;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        font-family: Helvetica, Tahoma, Arial, Microsoft YaHei, sans-serif;
+    }
+
+    .top_menu {
+        display: -webkit-box;
+        border-top: 1px solid #3D3D46;
+        display: block;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.7);
+        height: 48px;
+        display: -webkit-box;
+        display: box;
+        margin: 0;
+        padding: 0;
+        -webkit-box-orient: horizontal;
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#697077), to(#3F434E), color-stop(60%, #464A53));
+        box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.3) inset;
+    }
+
+    .top_bar .top_menu > li {
+        -webkit-box-flex: 1;
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.1)), color-stop(50%, rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.4))), -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255, 255, 255, 0.1)), color-stop(50%, rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.15)));;
+        -webkit-background-size: 1px 100%, 1px 100%;
+        background-size: 1px 100%, 1px 100%;
+        background-position: 1px center, 2px center;
+        background-repeat: no-repeat;
+        position: relative;
+        text-align: center;
+    }
+
+    .top_menu li:first-child {
+        background: none;
+    }
+
+    .top_bar .top_menu > li > a {
+        height: 48px;
+        display: block;
+        text-align: center;
+        color: #FFF;
+        text-decoration: none;
+        text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+        -webkit-box-flex: 1;
+    }
+
+    .top_bar .top_menu > li > a label {
+        overflow: hidden;
+        margin: 0 0 0 0;
+        font-size: 12px;
+        display: block !important;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .top_bar .top_menu > li > a img {
+        padding: 3px 0 0 0;
+        height: 24px;
+        width: 24px;
+        color: #fff;
+        line-height: 48px;
+        vertical-align: middle;
+    }
+
+    .top_bar li:first-child a {
+        display: block;
+    }
+
+    .menu_font {
+        text-align: left;
+        position: absolute;
+        right: 10px;
+        z-index: 500;
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#697077), to(#3F434E), color-stop(60%, #464A53));
+        border-radius: 5px;
+        width: 120px;
+        margin-top: 10px;
+        padding: 0;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .menu_font.hidden {
+        display: none;
+    }
+
+    .menu_font {
+        top: inherit !important;
+        bottom: 60px;
+    }
+
+    .menu_font li a {
+        height: 40px;
+        margin-right: 1px;
+        display: block;
+        text-align: center;
+        color: #FFF;
+        text-decoration: none;
+        text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+        -webkit-box-flex: 1;
+    }
+
+    .menu_font li a {
+        text-align: left !important;
+    }
+
+    .top_menu li:last-of-type a {
+        background: none;
+    }
+
+    .menu_font:after {
+        top: inherit !important;
+        bottom: -6px;
+        border-color: #3F434E rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+        border-width: 6px 6px 0;
+        position: absolute;
+        content: "";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        left: 80%;
+    }
+
+    .menu_font li {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    .menu_font li:first-of-type {
+        border-top: 0;
+    }
+
+    .menu_font li:last-of-type {
+        border-bottom: 0;
+    }
+
+    .menu_font li a {
+        height: 40px;
+        line-height: 40px !important;
+        position: relative;
+        color: #fff;
+        display: block;
+        width: 100%;
+        text-indent: 10px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .menu_font li a img {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        margin-top: -2px;
+        color: #fff;
+        line-height: 40px;
+        vertical-align: middle;
+    }
+
+    .menu_font > li > a label {
+        padding: 3px 0 0 3px;
+        font-size: 14px;
+        overflow: hidden;
+        margin: 0;
+    }
+
+    #menu_list0 {
+        right: 0;
+        left: 10px;
+    }
+
+    #menu_list0:after {
+        left: 20%;
+    }
+
+    #sharemcover {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        display: none;
+        z-index: 20000;
+    }
+
+    #sharemcover img {
+        position: fixed;
+        right: 18px;
+        top: 5px;
+        width: 260px;
+        height: 180px;
+        z-index: 20001;
+        border: 0;
+    }
+
+    .top_bar .top_menu > li > a:hover, .top_bar .top_menu > li > a:active {
+        background-color: #333;
+    }
+
+    .menu_font li a:hover, .menu_font li a:active {
+        background-color: #333;
+    }
+
+    .menu_font li:first-of-type a {
+        border-radius: 5px 5px 0 0;
+    }
+
+    .menu_font li:last-of-type a {
+        border-radius: 0 0 5px 5px;
+    }
+
+    #plug-wrap {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0);
+        z-index: 800;
+    }
+
+    #cate18 .device {
+        bottom: 49px;
+    }
+
+    #cate18 #indicator {
+        bottom: 240px;
+    }
+
+    #cate19 .device {
+        bottom: 49px;
+    }
+
+    #cate19 #indicator {
+        bottom: 330px;
+    }
+
+    #cate19 .pagination {
+        bottom: 60px;
+    }
+</style>
+<script type="text/javascript">
+    window.onload = function () {
+        var liNodeLists = document.getElementById('top_menu').children;
+        for (var i = 0; i < liNodeLists.length; i++) {
+            liNodeLists[i].style.width = 100 / liNodeLists.length + "%";
+        }
+    }
+</script>
+<div class="top_bar" style="-webkit-transform:translate3d(0,0,0)">
+    <nav>
+        <ul id="top_menu" class="top_menu">
+            <li><a href="http://zhan.sem123.com/index.php?g=Wap&m=Index&a=index&token=ulxuls1422869250&wecha_id="><img
+                    src="http://zhan.sem123.com/tpl/static/attachment/icon/baise/23.png"><label>首页</label></a>
+            </li>
+            <li><a onclick="javascript:displayit(1)"><img
+                    src="http://zhan.sem123.com/tpl/static/attachment/icon/baise/107.png"><label>电话</label></a>
+                <ul id="menu_list1" class="menu_font" style=" display:none">
+                    <li><a href="http://www.dldipai.cn/shoujibohao/bohao/xinggongjie.html?wecha_id="><img
+                            src="http://zhan.sem123.com/tpl/static/attachment/icon/baise/107.png"><label>兴工街</label></a>
+                    </li>
+                    <li><a href="http://www.dldipai.cn/shoujibohao/bohao/zhoushuizi.html?wecha_id="><img
+                            src="http://zhan.sem123.com/tpl/static/attachment/icon/baise/107.png"><label>周水子</label></a>
+                    </li>
+                    <li><a href="http://www.dldipai.cn/shoujibohao/bohao/youhao.html?wecha_id="><img
+                            src="http://zhan.sem123.com/tpl/static/attachment/icon/baise/107.png"><label>中山区</label></a>
+                    </li>
+                    <li><a href="http://www.dldipai.cn/shoujibohao/bohao/kuaiji.html?wecha_id="><img
+                            src="http://zhan.sem123.com/tpl/static/attachment/icon/baise/107.png"><label>会计咨询</label></a>
+                    </li>
+                </ul>
+            </li>
+            <li><a onclick="javascript:displayit(2)"><img
+                    src="http://zhan.sem123.com/tpl/static/attachment/icon/baise/61.png"><label>咨询</label></a>
+                <ul id="menu_list2" class="menu_font" style=" display:none">
+                    <li><a href="http://wpa.qq.com/msgrd?v=3&uin=252830155&site=oicqzone.com&menu=yes&wecha_id="><img
+                            src="http://zhan.sem123.com/uploads/u/ulxuls1422869250/a/5/3/8/thumb_54d420a49b140.png"><label>兴工街</label></a>
+                    </li>
+                    <li><a href="http://wpa.qq.com/msgrd?v=3&uin=974395339&site=oicqzone.com&menu=yes&wecha_id="><img
+                            src="http://zhan.sem123.com/uploads/u/ulxuls1422869250/a/9/c/8/thumb_54d420c7046d4.png"><label>周水子</label></a>
+                    </li>
+                    <li><a href="http://wpa.qq.com/msgrd?v=3&uin=2100875859&site=oicqzone.com&menu=yes&wecha_id="><img
+                            src="http://zhan.sem123.com/uploads/u/ulxuls1422869250/3/1/2/a/thumb_54d42172074ac.png"><label>中山区</label></a>
+                    </li>
+                    <li><a href="http://wpa.qq.com/msgrd?v=3&uin=1727173270&site=oicqzone.com&menu=yes&wecha_id="><img
+                            src="http://zhan.sem123.com/uploads/u/ulxuls1422869250/7/b/4/8/thumb_554183548aac2.png"><label>会计咨询</label></a>
+                    </li>
+                </ul>
+            </li>
+            <li><a onclick="javascript:displayit(3)"><img
+                    src="http://zhan.sem123.com/tpl/static/attachment/icon/baise/262.png"><label>更多</label></a>
+                <ul id="menu_list3" class="menu_font" style=" display:none">
+                    <li>
+                        <a href="http://zhan.sem123.com/index.php?g=Wap&m=Company&a=map&token=ulxuls1422869250&wecha_id="><img
+                                src="http://zhan.sem123.com/tpl/static/attachment/icon/baise/31.png"><label>地址</label></a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<div id="plug-wrap" onclick="closeall()" style="display: none;"></div>
+
+
+<script type="text/javascript">
+
+    window.shareData = {
+
+        "moduleName": "Index",
+
+        "moduleID": '1',
+
+        "imgUrl": "1",
+
+        "timeLineLink": "http://zhan.sem123.com/index.php?g=Wap&m=Index&a=lists&token=ulxuls1422869250&classid=2428",
+
+        "sendFriendLink": "http://zhan.sem123.com/index.php?g=Wap&m=Index&a=lists&token=ulxuls1422869250&classid=2428",
+
+        "weiboLink": "http://zhan.sem123.com/index.php?g=Wap&m=Index&a=lists&token=ulxuls1422869250&classid=2428",
+
+        "tTitle": "1",
+
+        "tContent": "1"
+
+    };
+
+</script>
+<script>document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+    WeixinJSBridge.on('menu:share:appmessage', function (argv) {
+        shareHandle('friend');
+        WeixinJSBridge.invoke('sendAppMessage', {
+            "img_url": window.shareData.imgUrl,
+            "img_width": "640",
+            "img_height": "640",
+            "link": window.shareData.sendFriendLink,
+            "desc": window.shareData.tContent,
+            "title": window.shareData.tTitle
+        }, function (res) {
+            _report('send_msg', res.err_msg);
+        })
+    });
+
+    WeixinJSBridge.on('menu:share:timeline', function (argv) {
+        shareHandle('frineds');
+        WeixinJSBridge.invoke('shareTimeline', {
+            "img_url": window.shareData.imgUrl,
+            "img_width": "640",
+            "img_height": "640",
+            "link": window.shareData.sendFriendLink,
+            "desc": window.shareData.tContent,
+            "title": window.shareData.tTitle
+        }, function (res) {
+            _report('timeline', res.err_msg);
+        });
+    });
+
+    WeixinJSBridge.on('menu:share:weibo', function (argv) {
+        shareHandle('weibo');
+        WeixinJSBridge.invoke('shareWeibo', {
+            "content": window.shareData.tContent,
+            "url": window.shareData.sendFriendLink,
+        }, function (res) {
+            _report('weibo', res.err_msg);
+        });
+    });
+}, false)
+
+function shareHandle(to) {
+    var submitData = {
+        module: window.shareData.moduleName,
+        moduleid: window.shareData.moduleID,
+        token: 'ulxuls1422869250',
+        wecha_id: '',
+        url: window.shareData.sendFriendLink,
+        to: to
+    };
+    $.post('/index.php?g=Wap&m=Share&a=shareData&token=ulxuls1422869250', submitData, function (data) {
+    }, 'json')
+}
+</script>
+<!--chat-->
+<script type="text/javascript" src="tpl/Wap/default/common/js/ChatFloat.js"></script>
+</body>
+</html>
